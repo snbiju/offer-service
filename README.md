@@ -40,13 +40,13 @@ Request body
  
  Update
  
-  http://localhost:8080/offers?id={id}
+  http://localhost:8080/offers
   
-  eg:-http://localhost:8080/offers?id=11dcb515-17ef-4205-8bac-78f9da7b07f2
+  eg:-http://localhost:8080/offers
   
   {
   
-    "id":"11dcb515-17ef-4205-8bac-78f9da7b07f2",
+  "id":"11dcb515-17ef-4205-8bac-78f9da7b07f2",
  	"description": "Product description",  
  	"price": 205.03, 
  	"currency": "USD", 
@@ -75,7 +75,9 @@ eg:-http://localhost:8080/offers/e64d0e0a-7dd9-4f9f-a2d1-cdaae6b64800
  
     
 **Get Offer by Currency**
+
 (GET REQUEST)
+
  http://localhost:8080/offers?currency={currency}
  
  eg:-http://localhost:8080/offers?currency=USD
