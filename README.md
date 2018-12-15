@@ -44,15 +44,15 @@ Request body
   
   eg:-http://localhost:8080/offers
   
-  {
-  
-  "id":"11dcb515-17ef-4205-8bac-78f9da7b07f2",
- 	"description": "Product description",  
- 	"price": 205.03, 
- 	"currency": "USD", 
- 	"expiryTime": "2019-01-01T00:00:00Z",
- 	"expired": false
- }
+ {
+    "id":"11dcb515-17ef-4205-8bac-78f9da7b07f2",
+    "description": "Product description",
+  	"price": 900.03,    
+  	"currency": "USD",
+  	"expiryTime": "2019-01-01T00:00:00Z",
+  	"expired": false
+   
+   }
  
    
 **Match Offer By id**
