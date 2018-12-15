@@ -9,7 +9,7 @@ Postman or any other REST API Testing tool
 
 **To run**
 
-clone https://github.com/snbiju/offer-service.git / download
+clone https://github.com/snbiju/offer-service.git/download
 
 go to offer-service-master
 
@@ -20,7 +20,8 @@ url: http://localhost:8080/swagger-ui.html
 
 **Create new offer**
 (POST REQUEST)
-http://localhost:8080/offers(POST REQUEST)
+
+http://localhost:8080/offers
 
 Request body
 
@@ -40,23 +41,26 @@ Request body
  
  Update
  
-  http://localhost:8080/offers
+
   eg:-http://localhost:8080/offers
   
-  {
+  eg:-http://localhost:8080/offers
   
+ {
     "id":"11dcb515-17ef-4205-8bac-78f9da7b07f2",
- 	"description": "Product description",  
- 	"price": 205.03, 
- 	"currency": "USD", 
- 	"expiryTime": "2019-01-01T00:00:00Z",
- 	"expired": false
- }
+    "description": "Product description",
+  	"price": 900.03,    
+  	"currency": "USD",
+  	"expiryTime": "2019-01-01T00:00:00Z",
+  	"expired": false
+   
+   }
  
    
 **Match Offer By id**
 
 (GET REQUEST)
+
 
 getById({id})
 
@@ -71,6 +75,7 @@ eg:- http://localhost:8080/offers/fbbca6ea-4191-4556-99d7-9bf704629365
 (DELETE REQUEST)
 
 http://localhost:8080/offers/{id}
+
 eg:-http://localhost:8080/offers/e64d0e0a-7dd9-4f9f-a2d1-cdaae6b64800
  
     
@@ -82,4 +87,5 @@ eg:-http://localhost:8080/offers/e64d0e0a-7dd9-4f9f-a2d1-cdaae6b64800
  
  eg:-http://localhost:8080/offers?currency=USD
  
+
 "# offer-service" 
