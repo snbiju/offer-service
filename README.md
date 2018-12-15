@@ -20,7 +20,8 @@ url: http://localhost:8080/swagger-ui.html
 
 **Create new offer**
 (POST REQUEST)
-http://localhost:8080/offers(POST REQUEST)
+
+http://localhost:8080/offers
 
 Request body
 
@@ -36,7 +37,9 @@ Request body
    
  **Update Offer**
  (PUT REQUEST)
+ 
  Update
+ 
   http://localhost:8080/offers?id={id}
   
   eg:-http://localhost:8080/offers?id=11dcb515-17ef-4205-8bac-78f9da7b07f2
@@ -53,7 +56,9 @@ Request body
  
    
 **Match Offer By id**
+
 (GET REQUEST)
+
 http://localhost:8080/offers/{id}
 
 eg:- http://localhost:8080/offers/fbbca6ea-4191-4556-99d7-9bf704629365
@@ -61,8 +66,9 @@ eg:- http://localhost:8080/offers/fbbca6ea-4191-4556-99d7-9bf704629365
  
        
 **Cancel Offer**
+
 (DELETE REQUEST)
-DELETE
+
 http://localhost:8080/offers/{id}
 
 eg:-http://localhost:8080/offers/e64d0e0a-7dd9-4f9f-a2d1-cdaae6b64800
@@ -73,4 +79,6 @@ eg:-http://localhost:8080/offers/e64d0e0a-7dd9-4f9f-a2d1-cdaae6b64800
  http://localhost:8080/offers?currency={currency}
  
  eg:-http://localhost:8080/offers?currency=USD
+ 
+ 
 "# offer-service" 
